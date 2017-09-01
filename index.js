@@ -1,3 +1,4 @@
+// version abc
 var time = require('time');
 exports.handler = (event, context, callback) => {
     var currentTime = new time.Date(); 
