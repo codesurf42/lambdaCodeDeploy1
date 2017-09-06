@@ -5,6 +5,6 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("Europe/London");
     callback(null, {
         statusCode: '200',
-        body: 'The time in UK is: ' + currentTime.toString(),
+        body: 'The time in West Sussex is: ' + currentTime.toString(),
     });
 };
